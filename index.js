@@ -8,8 +8,6 @@ function loadChili() {
 
     window.StudioUI.studioUILoaderConfig({
     selector: 'studio-ui-container',
-    projectDownloadUrl: `${environmentBaseURL}/projects/${projectID}/document`,
-    projectUploadUrl: `${environmentBaseURL}/projects/${projectID}`,
     projectId: projectID,
     graFxStudioEnvironmentApiBaseUrl: environmentBaseURL,
     authToken: token,
