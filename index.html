@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JavaScript Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background-color: #f4f4f4;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #studio-ui-container {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 4px;
+            min-height: 50px;
+        }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://studio-cdn.chiligrafx.com/studio-ui/latest/main.css"
+    />
+
+</head>
+<body>
+    <script src="https://studio-cdn.chiligrafx.com/studio-ui/latest/bundle.js"></script>
+   
+    <div class="container">
+        <button onclick="loadChili()">Click to load Chili</button>
+        <input type="text" id="token" placeholder="Enter your Token" style="margin-left: 10px; padding: 8px; width: 600px" />
+        <input type="text" id="projectID" placeholder="Enter your Project ID" style="margin-left: 10px; padding: 8px; width: 300px" />
+        <input type="text" id="interfaceID" placeholder="Enter your InterfaceID ID" style="margin-left: 10px; padding: 8px; width: 300px" />
+        <input type="text" id="url" placeholder="Enter your URL" style="margin-left: 10px; padding: 8px; width: 800px" />
+        
+        
+        <div id="studio-ui-container">
+            <p><em>Click any button above to see the JavaScript in action!</em></p>
+        </div>
+    </div>
+
+    <!-- Load the external JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>
